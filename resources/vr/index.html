@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="stylesheet" href="assets/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+
+	<link rel="icon" href="../../img/favicon.ico">
+
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script src="assets/js/aframe.min.js"></script>
+    <script src="assets/js/aframe-bmfont-text-component.min.js"></script>
+	<script src="assets/js/aframe-text-component.min.js"></script>
+
+    <title>Bike Shop | TrueReality</title>
+</head>
+<body>
+
+<audio id="music" src="#" loop></audio>
+
+<nav class="navbar navbar-fixed-top navbar-light bg-faded">
+    <div class="container">
+        <a class="navbar-brand float-md-left float-xs-right" href="#">
+            <img src="assets/img/logo_tekst_rechts.png" width="120" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-toggleable-md" id="navbarResponsive">
+            <ul class="nav navbar-nav float-md-right float-sm-left">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#banner">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#product">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#stel-samen">Stel samen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- BANNER -->
+<div class="jumbotron jumbotron-fluid" id="banner">
+    <div class="container">
+        <h1 class="display-3">VR Bikeshop</h1>
+        <p class="lead">Bouw jouw fiets in VR.</p>
+    </div>
+</div>
+
+<div class="container text-xs-center">
+    <h2 class="display-3 part-title" id="product">Product</h2>
+
+    <div class="part">
+        <div class="col-md-8 offset-md-2">
+            <p>
+                Een fiets<br>
+                Fietsen zijn er al sinds 1817. Iedereen in Nederland heeft er een. Iedereen heeft een andere.
+                Er komt een punt dat je een nieuwe moet gaan kopen, maar geen enkele fiets voldoet aan jouw eisen. In onze Bikeshop kan jij de fiets samenstellen die je altijd al had willen hebben. Hier hoef je niet meer voor naar de winkel te komen.
+                Een fiets ziet er vaak anders uit dan op een plaatje, in onze Bikeshop stel je jouw fiets samen in een Virtual reality omgeving. Zo kan je meteen vanuit allerlei hoeken zien hoe jouw samengestelde fiets eruit komt te zien.
+                Neem eens een kijkje, wanneer je tevreden bent met jouw ontwerp kan je hem meteen bestellen.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="part">
+    <div class="part" id="stel-samen">
+        <h2 class="display-3 part-title text-xs-center">Stel samen</h2>
+    </div>
+
+    <!-- begin van het vr element -->
+
+        <a-scene id="scene" embedded>
+
+            <a-assets>
+
+                <!-- bike assets -->
+                <!-- frames -->
+                <a-asset-item id="fiets1_obj" src="assets/colada/fiets1/frame.dae"></a-asset-item>
+                <a-asset-item id="fiets2_obj" src="assets/colada/fiets2/frame.dae"></a-asset-item>
+                <a-asset-item id="fiets3_obj" src="assets/colada/fiets3/frame.dae"></a-asset-item>
+
+                <!-- wielen -->
+                <a-asset-item id="wiel1_obj" src="assets/colada/fiets1/wiel.dae"></a-asset-item>
+                <a-asset-item id="wiel2_obj" src="assets/colada/fiets2/wiel.dae"></a-asset-item>
+                <a-asset-item id="wiel3_obj" src="assets/colada/fiets3/wiel.dae"></a-asset-item>
+
+                <!-- zadels -->
+                <a-asset-item id="zadel1_obj" src="assets/colada/fiets1/zadel.dae"></a-asset-item>
+                <a-asset-item id="zadel2_obj" src="assets/colada/fiets2/zadel.dae"></a-asset-item>
+                <a-asset-item id="zadel3_obj" src="assets/colada/fiets3/zadel.dae"></a-asset-item>
+
+                <!-- sturen -->
+                <a-asset-item id="stuur1_obj" src="assets/colada/fiets1/stuur.dae"></a-asset-item>
+                <a-asset-item id="stuur2_obj" src="assets/colada/fiets2/stuur.dae"></a-asset-item>
+                <a-asset-item id="stuur3_obj" src="assets/colada/fiets3/stuur.dae"></a-asset-item>
+
+				<!--toonbank-->
+				<img id="toonbank_texture" src="assets/img/toonbank_texture.jpg">
+
+				<!--raam-->
+				<img id="raam" src="assets/img/raam2.png">
+                <!-- gebouw -->
+                <img id="vloer" src="assets/img/vloer.jpg">
+                <img id="muur" src="assets/img/muur.jpg">
+                <img id="dak" src="assets/img/dak.jpg">
+                <img id="balk" src="assets/img/houtbalk.jpg">
+
+				<!--menu-->
+				<img id="rek" src="assets/img/rek.jpg">
+				<!--frame-->
+				<img id="frame0_img" src="assets/img/frame1.png">
+				<img id="frame1_img" src="assets/img/frame2.png">
+				<img id="frame2_img" src="assets/img/frame3.png">
+
+				<!--wiel-->
+				<img id="wiel0_img" src="assets/img/wiel1.png">
+				<img id="wiel1_img" src="assets/img/wiel2.png">
+				<img id="wiel2_img" src="assets/img/wiel3.png">
+
+				<!--stuur-->
+				<img id="stuur0_img" src="assets/img/stuur1.png">
+				<img id="stuur1_img" src="assets/img/stuur2.png">
+				<img id="stuur2_img" src="assets/img/stuur3.png">
+
+				<!--zadel-->
+				<img id="zadel0_img" src="assets/img/zadel1.png">
+				<img id="zadel1_img" src="assets/img/zadel2.png">
+				<img id="zadel2_img" src="assets/img/zadel3.png">
+				
+                <a-mixin id="muur-mixin" material="src:#muur; repeat: 4" geometry="primitive: plane; height: 30; width: 50"></a-mixin>
+                <a-mixin id="dak-mixin" material="src:#dak; repeat: 10" geometry="primitive: plane; height: 50; width: 50"></a-mixin>
+                <a-mixin id="balk-mixin" material="src:#balk; repeat: 10" geometry="primitive: box; width: 50; height: 3; depth: 3"></a-mixin>
+
+				<!-- pointer -->
+				<a-mixin id="pointer" geometry="primitive:sphere;radius:0.5" material="color:blue;opacity:0.5"></a-mixin>
+
+				<!--radio-->
+				<a-asset-item id="radioObj" src="assets/obj/radio/PROP_Radio.obj"></a-asset-item>
+				<a-asset-item id="radioMtl" src="assets/obj/radio/PROP_Radio.mtl"></a-asset-item>
+
+            </a-assets>
+
+            <a-sky color="black"></a-sky>
+
+			<a-entity id="camera" camera="userHeight: 5.6" look-controls wasd-controls-enabled="false" position="0 0 0">
+				<a-entity visible="false" id="checking_out">
+					<a-plane  id="afsluiting" width="40" height="40" position="0 0 -5" material="color:grey;" opacity="0"></a-plane>
+					<a-entity id="afsluiting-text" text="text: Zet uw vr bril af!" material="color:black;" position="-2.25 0 -4.9" opacity="0"></a-entity>
+				</a-entity>
+
+				<a-entity id="camera_active">
+                	<a-entity id="camera_obj"></a-entity>
+
+                    <!-- Cursor met de fuse (wachten totdat de klik wordt uitgevoerd -->
+					<a-entity cursor="fuse: true; fuseTimeout: 1500"
+							  position="0 0 -5"
+							  geometry="primitive: ring; radiusInner: 0.06; radiusOuter: 0.1"
+							  material="color: black; shader: flat">
+					</a-entity>
+					<a-entity>
+						<a-box id="timer" depth="0.1" width="0" height="0.2" color="grey" position="0 0.3 -5"></a-box>
+						<a-animation begin="cursor-fusing" attribute="width" dur="2000" fill="forwards" to="3" repeat="0"></a-animation>
+					</a-entity>
+				</a-entity>
+			</a-entity>
+
+            <!-- gebouw enities -->
+            <a-entity id="gebouw">
+                <a-plane material="src:#vloer; repeat:20 20;" height="50" width="50" rotation="-90 0 0"></a-plane>
+                <a-entity mixin="muur-mixin" position="0 7.5 -25"></a-entity>
+                <a-entity mixin="muur-mixin" position="25 7.5 0" rotation="0 -90 0"></a-entity>
+                <a-entity mixin="muur-mixin" position="-25 7.5 0" rotation="0 90 0"></a-entity>
+                <a-entity mixin="muur-mixin" position="0 7.5 25" rotation="0 180 0"></a-entity>
+
+                <a-entity mixin="muur-mixin" position="0 37 -25.1" rotation="0 0 0"></a-entity>
+                <a-entity mixin="muur-mixin" position="0 37 25.1" rotation="0 180 0"></a-entity>
+
+
+                <a-entity mixin="dak-mixin" position="15 25 0" rotation="45 270 0"></a-entity>
+                <a-entity mixin="dak-mixin" position="-15 25 0" rotation="45 -270 0"></a-entity>
+
+                <a-entity mixin="balk-mixin" position="0 20 -17"></a-entity>
+                <a-entity mixin="balk-mixin" position="0 20 17"></a-entity>
+                <a-entity mixin="balk-mixin" position="0 46.50 -17" rotation="0 0 90"></a-entity>
+                <a-entity mixin="balk-mixin" position="0 46.50 17" rotation="0 0 90"></a-entity>
+            </a-entity>
+
+            <!-- hier worden de geselecteerde fietsonderdelen geplaatst -->
+			<a-entity id="fiets_holder" position="0 2 -10">
+				<a-entity id="fiets"></a-entity>
+				<a-entity id="wiel_voor"></a-entity>
+				<a-entity id="wiel_achter"></a-entity>
+				<a-entity id="stuur"></a-entity>
+				<a-entity id="zadel"></a-entity>
+			</a-entity>
+
+            <!-- plaats voor het menu -->
+            <a-entity id="menu_holder" position="0 10 -10"></a-entity>
+
+            <a-image id="deur" src="assets/img/door.png" position="0 6 24" scale="12 12 12" rotation="0 180 0"></a-image>
+			<a-image id="deur" src="#raam" position="-24.9 7 5" scale="20 20 20" rotation="0 90 0"></a-image>
+			<a-image id="deur" src="#raam" position="24.9 7 -10" scale="20 20 20" rotation="0 90 0"></a-image>
+			<a-entity id="toonbank" position="13 2 15">
+				<a-entity id="deel1" geometry="primitive:box;depth:20;width:3;height:4.5" material="src:#toonbank_texture"></a-entity>
+				<a-entity id="deel2" geometry="primitive:box;depth:12;width:3;height:4.5" material="src:#toonbank_texture" rotation="0 90 0" position="5.5 0 -8.5" ></a-entity>
+				<a-image id="logo" src="assets/img/toonbank_logo.png" position="-1.51 0 0" scale="12 12 12" rotation="0 -90 0"></a-image>
+			</a-entity>
+
+			<a-entity selectable id="radio" obj-model="obj: #radioObj; mtl: #radioMtl" position="13.25 4 6.99" scale="10 10 10" rotation="0 -127 0"></a-entity>
+
+            <!-- ambient light aanpasssing -->
+            <a-light type="ambient" color="#222" intensity="7.2"></a-light>
+
+        </a-scene>
+    <!-- einde van het vr element -->
+        </div>
+
+
+        <footer class="footer">
+            <div class="container text-xs-center">
+                <div class="col-md-6">
+                    <h2>Job Vink</h2>
+                    <img src="assets/img/fotojob.jpg" class="circle">
+                    <ul>
+                        <li><i class="fa fa-phone" aria-hidden="true">&#09;0657775269</i></li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i>&#09;<A HREF="mailto:s1092717@student.hsleiden.nl">s1092717@student.hsleiden.nl</A></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2>Bas van Bovene</h2>
+                    <img src="assets/img/fotobas.jpg" class="circle">
+                    <ul>
+                        <li><i class="fa fa-phone" aria-hidden="true">&#09;0613239346</i></li>
+                        <li><i class="fa fa-envelope" aria-hidden="true">&#09;<A HREF="mailto:s1096181@student.hsleiden.nl">s1096181@student.hsleiden.nl</A></i></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="modal fade bd-example-modal-lg" id="checkoutmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Overzicht</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table" id="price_list">
+                            <thead><tr>
+                                <th>Product omschrijving</th>
+                                <th>Prijs</th>
+                            </tr>
+
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+
+                        <p id="checkoutmsg"></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                        <button type="button" class="btn btn-primary" id="afrekenen">Afrekenen</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/website.js"></script>
+
+</body>
+</html>
