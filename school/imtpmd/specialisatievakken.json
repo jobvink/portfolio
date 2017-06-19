@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "code": "IIPDBAM",
+    "naam": "Project inleiding BDaM",
+    "ec": 10,
+    "jaar_id": 1,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 2,
+    "code": "IIPMEDT",
+    "naam": "Project inleiding MedT",
+    "ec": 10,
+    "jaar_id": 1,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 3,
+    "code": "IIPSEN",
+    "naam": "Project inleiding SE",
+    "ec": 10,
+    "jaar_id": 1,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 4,
+    "code": "IIPFIT",
+    "naam": "Project inleiding FICT",
+    "ec": 10,
+    "jaar_id": 1,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 5,
+    "code": "IPBDAM2",
+    "naam": "Project Business DataManagement 2",
+    "ec": 6,
+    "jaar_id": 2,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 6,
+    "code": "IPRODAM",
+    "naam": "Proces- en Data-modelleren",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 7,
+    "code": "IPBDAM3",
+    "naam": "Project Business DataManagement 3",
+    "ec": 6,
+    "jaar_id": 2,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 8,
+    "code": "IDAAN1",
+    "naam": "Data-analyse Basis",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 9,
+    "code": "IPDBAM4",
+    "naam": "Project Business DataManagement 4",
+    "ec": 6,
+    "jaar_id": 2,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 10,
+    "code": "IDAM",
+    "naam": "Datamanagement",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 11,
+    "code": "IPBDAM5",
+    "naam": "Project Business DataManagement 5",
+    "ec": 6,
+    "jaar_id": 2,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 12,
+    "code": "IBUID",
+    "naam": "Business Intelligence & Data Warehousing",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 13,
+    "code": "IPDAMH",
+    "naam": "Hoofdfaseproject Business DataManagement",
+    "ec": 9,
+    "jaar_id": 3,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 14,
+    "code": "IDARE",
+    "naam": "Data Realisatie",
+    "ec": 3,
+    "jaar_id": 3,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 15,
+    "code": "IDAAN2",
+    "naam": "Data-analyse 2",
+    "ec": 3,
+    "jaar_id": 3,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 16,
+    "code": "IDARCH",
+    "naam": "Data Architectuur",
+    "ec": 3,
+    "jaar_id": 3,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 17,
+    "code": "IWLS",
+    "naam": "Stage",
+    "ec": 30,
+    "jaar_id": 3,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 18,
+    "code": "IWLA",
+    "naam": "Afstudeerverslag",
+    "ec": 30,
+    "jaar_id": 3,
+    "specialisatie_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 19,
+    "code": "IPMEDT2",
+    "naam": "Project Mediatechnologie 2",
+    "ec": 6,
+    "jaar_id": 2,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 20,
+    "code": "IMTD1",
+    "naam": "Mediatechnlogisch Design 1\u00a0",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 21,
+    "code": "IPMEDT3",
+    "naam": "Project Mediatechnologie 3",
+    "ec": 6,
+    "jaar_id": 2,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 22,
+    "code": "IMTUE",
+    "naam": "Mediatechnologie Usability Engineering",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 23,
+    "code": "IPMEDT5",
+    "naam": "Project Mediatechnologie 5",
+    "ec": 6,
+    "jaar_id": 2,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 24,
+    "code": "IMTCM",
+    "naam": "Mediatechnologie Creative marketing",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 25,
+    "code": "IPMEDT4",
+    "naam": "Project Mediatechnologie 4",
+    "ec": 6,
+    "jaar_id": 2,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 26,
+    "code": "IMTPMD",
+    "naam": "Mediatechnology Programming for Mobile Devices",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 27,
+    "code": "IPMEDTH",
+    "naam": "Hoofdfaseproject Mediatechnologie",
+    "ec": 9,
+    "jaar_id": 3,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 28,
+    "code": "IMTUX",
+    "naam": "Mediatechnologie User Experience",
+    "ec": 3,
+    "jaar_id": 3,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 29,
+    "code": "IMTHE1",
+    "naam": "Mediatechnologie Hardware Engineering",
+    "ec": 3,
+    "jaar_id": 3,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 30,
+    "code": "IMTHMI",
+    "naam": "Human-Machine-interaction",
+    "ec": 3,
+    "jaar_id": 3,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 31,
+    "code": "IWLS",
+    "naam": "Stage",
+    "ec": 30,
+    "jaar_id": 3,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 32,
+    "code": "IWLA",
+    "naam": "Afstudeerverslag",
+    "ec": 30,
+    "jaar_id": 3,
+    "specialisatie_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 33,
+    "code": "IPSEN2",
+    "naam": "Project Software Engineering 2",
+    "ec": 6,
+    "jaar_id": 2,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 34,
+    "code": "IRDM",
+    "naam": "Relationele Databases Modelleren",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 35,
+    "code": "IPSEN3",
+    "naam": "Project Software Engineering 3",
+    "ec": 6,
+    "jaar_id": 2,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 36,
+    "code": "IPRWC",
+    "naam": "Programmeren in een webcontext",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 37,
+    "code": "IPSEN4",
+    "naam": "Project Software Engineering 4",
+    "ec": 6,
+    "jaar_id": 2,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 38,
+    "code": "ILG1",
+    "naam": "Logica",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 39,
+    "code": "IPSEN5",
+    "naam": "Project Software Engineering 5",
+    "ec": 6,
+    "jaar_id": 2,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 40,
+    "code": "IIAD",
+    "naam": "Inleiding Algoritmen en Datastructuren",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 41,
+    "code": "IPSENH",
+    "naam": "Hoofdfaseproject Software Engineering",
+    "ec": 9,
+    "jaar_id": 3,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 42,
+    "code": "IAD1",
+    "naam": "Algoritmen en Datastructuren 1",
+    "ec": 3,
+    "jaar_id": 3,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 43,
+    "code": "ICP",
+    "naam": "Concepten in Programmeertalen",
+    "ec": 3,
+    "jaar_id": 3,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 44,
+    "code": "ITEST",
+    "naam": "Testen van software",
+    "ec": 3,
+    "jaar_id": 3,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 45,
+    "code": "IWLS",
+    "naam": "Stage",
+    "ec": 30,
+    "jaar_id": 3,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 46,
+    "code": "IWLA",
+    "naam": "Afstudeerverslag",
+    "ec": 30,
+    "jaar_id": 3,
+    "specialisatie_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 47,
+    "code": "IPFJURI",
+    "naam": "Juridisch Forenscisch Project",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 48,
+    "code": "IFRCHT",
+    "naam": "Recht voor forensisch Iters",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 49,
+    "code": "IPFNET",
+    "naam": "Project Netwerkonderzoek",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 50,
+    "code": "IFNWR",
+    "naam": "Netwerkonderzoek",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 51,
+    "code": "IPFIT5",
+    "naam": "Project Forensisch ICT 5",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 52,
+    "code": "IFMA",
+    "naam": "Malware analyse in systemen",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 53,
+    "code": "IPFIT4",
+    "naam": "Project Forensisch ICT 4",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 54,
+    "code": "IFTON",
+    "naam": "Technisch Onderzoek",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 55,
+    "code": "IPFIT6",
+    "naam": "Project Forensisch ICT 6",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 56,
+    "code": "IFOSI",
+    "naam": "Internetonderzoek",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 57,
+    "code": "IPFIT7",
+    "naam": "Project Forensisch ICT 7",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 58,
+    "code": "IFEDY",
+    "naam": "E-Discovery",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 59,
+    "code": "IWLS",
+    "naam": "Stage",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 60,
+    "code": "IWLA",
+    "naam": "Afstudeerverslag",
+    "ec": 3,
+    "jaar_id": 2,
+    "specialisatie_id": 3,
+    "created_at": null,
+    "updated_at": null
+  }
+]

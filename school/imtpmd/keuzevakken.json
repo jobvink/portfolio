@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "code": "ITRAP",
+    "naam": "Taal in Rapporteren",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 2,
+    "code": "IBROZ",
+    "naam": "Open bronnenonderzoek",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 3,
+    "code": "ISTAT",
+    "naam": "Statistiek voor IT-ers",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 4,
+    "code": "ICOMAS",
+    "naam": "Assessment en Zelfonderzoek",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 5,
+    "code": "IDEPA",
+    "naam": "Inleiding Design Patterns",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 6,
+    "code": "ISDELI",
+    "naam": "IT Servicemanagement Delivery",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 7,
+    "code": "IWIS",
+    "naam": "Wiskunde voor ICT-ers",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 8,
+    "code": "ISDEMA",
+    "naam": "IT Servicemanagement Demand",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 9,
+    "code": "IKPMD",
+    "naam": "Programming for Mobile Devices",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 10,
+    "code": "IITPS",
+    "naam": "IT Psychologie",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 11,
+    "code": "IBK5",
+    "naam": "Opzetten eigen IT bedrijf\u00a0",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 12,
+    "code": "IFP2",
+    "naam": "Functioneel Projectmanagement",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 13,
+    "code": "IKLO",
+    "naam": "Logica",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 14,
+    "code": "ITREWA",
+    "naam": "Trend Watching",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 15,
+    "code": "IKUE",
+    "naam": "Usability Engineering",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 16,
+    "code": "IKEMA",
+    "naam": "Kennis Management",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 17,
+    "code": "IKGEO",
+    "naam": "Geografische data \/ Open Data",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 18,
+    "code": "IKCP",
+    "naam": "Concepten in Programmeertalen",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 19,
+    "code": "IFRAME",
+    "naam": "Frameworks",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 20,
+    "code": "ILNUX1",
+    "naam": "Linux 1",
+    "ec": 3,
+    "created_at": null,
+    "updated_at": null
+  }
+]

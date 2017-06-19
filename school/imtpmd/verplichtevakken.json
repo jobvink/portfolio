@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "code": "IARCH",
+    "naam": "IT Architechtuur",
+    "ec": 3,
+    "jaar_id": 1,
+    "periode_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 2,
+    "code": "IIBPM",
+    "naam": "Informatiemanagement",
+    "ec": 3,
+    "jaar_id": 1,
+    "periode_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 3,
+    "code": "IHBO",
+    "naam": "Fundamentele HBO-(I)-vaardigheden",
+    "ec": 3,
+    "jaar_id": 1,
+    "periode_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 4,
+    "code": "IOPR1",
+    "naam": "Objectgeori\u00ebnteerd programmeren 1",
+    "ec": 4,
+    "jaar_id": 1,
+    "periode_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 5,
+    "code": "IRDB",
+    "naam": "Relationele databases",
+    "ec": 3,
+    "jaar_id": 2,
+    "periode_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 6,
+    "code": "IIBUI",
+    "naam": "Inleiding Business Intelligence",
+    "ec": 3,
+    "jaar_id": 1,
+    "periode_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 7,
+    "code": "INET",
+    "naam": "IT Netwerkstructuren",
+    "ec": 3,
+    "jaar_id": 1,
+    "periode_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 8,
+    "code": "IPODM",
+    "naam": "Practische Opdracht Business datamanagement",
+    "ec": 2,
+    "jaar_id": 1,
+    "periode_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 9,
+    "code": "IPOMEDT",
+    "naam": "Practische Opdracht Mediatechnologie",
+    "ec": 2,
+    "jaar_id": 1,
+    "periode_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 10,
+    "code": "IWDR",
+    "naam": "Webdesign & Realisatie",
+    "ec": 3,
+    "jaar_id": 1,
+    "periode_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 11,
+    "code": "IOPR2",
+    "naam": "Objectgeori\u00ebnteerd programmeren 2",
+    "ec": 4,
+    "jaar_id": 1,
+    "periode_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 12,
+    "code": "IFIT",
+    "naam": "Inleiding Forensische ICT",
+    "ec": 3,
+    "jaar_id": 1,
+    "periode_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 13,
+    "code": "IMUML",
+    "naam": "Modeleren in UML",
+    "ec": 3,
+    "jaar_id": 1,
+    "periode_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 14,
+    "code": "IPROV",
+    "naam": "ICT Projectvaardigheden",
+    "ec": 3,
+    "jaar_id": 1,
+    "periode_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 15,
+    "code": "IPOSE",
+    "naam": "Practische Opdracht Software Engineering",
+    "ec": 2,
+    "jaar_id": 1,
+    "periode_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 16,
+    "code": "IPOFIT",
+    "naam": "Practische Opdracht Forensisch ICT",
+    "ec": 2,
+    "jaar_id": 1,
+    "periode_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 17,
+    "code": "ICOMMP",
+    "naam": "Communicatie 1",
+    "ec": 3,
+    "jaar_id": 1,
+    "periode_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 18,
+    "code": "ISLP",
+    "naam": "Studieloopbaanbegeleiding",
+    "ec": 1,
+    "jaar_id": 1,
+    "periode_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 19,
+    "code": "IRDBMS",
+    "naam": "Relationele databasemanagementsystemen",
+    "ec": 3,
+    "jaar_id": 2,
+    "periode_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 20,
+    "code": "ISCRIPT",
+    "naam": "Scripting",
+    "ec": 3,
+    "jaar_id": 2,
+    "periode_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 21,
+    "code": "IQUA",
+    "naam": "Studieloopbaanbegeleiding",
+    "ec": 3,
+    "jaar_id": 2,
+    "periode_id": 3,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 22,
+    "code": "IETH",
+    "naam": "Ethiek",
+    "ec": 3,
+    "jaar_id": 2,
+    "periode_id": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 23,
+    "code": "ITORG",
+    "naam": "Inleiding Organisatiekunde",
+    "ec": 3,
+    "jaar_id": 3,
+    "periode_id": 1,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 24,
+    "code": "ISEC",
+    "naam": "IT Security",
+    "ec": 3,
+    "jaar_id": 3,
+    "periode_id": 2,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 25,
+    "code": "ISLH",
+    "naam": "Studieloopbaanbegeleiding",
+    "ec": 1,
+    "jaar_id": 3,
+    "periode_id": 1,
+    "created_at": null,
+    "updated_at": null
+  }
+]
