@@ -5,9 +5,7 @@
     "naam": "Project inleiding BDaM",
     "ec": 10,
     "jaar_id": 1,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 2,
@@ -15,9 +13,7 @@
     "naam": "Project inleiding MedT",
     "ec": 10,
     "jaar_id": 1,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 3,
@@ -25,9 +21,7 @@
     "naam": "Project inleiding SE",
     "ec": 10,
     "jaar_id": 1,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 4,
@@ -35,9 +29,7 @@
     "naam": "Project inleiding FICT",
     "ec": 10,
     "jaar_id": 1,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   },
   {
     "id": 5,
@@ -45,9 +37,7 @@
     "naam": "Project Business DataManagement 2",
     "ec": 6,
     "jaar_id": 2,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 6,
@@ -55,9 +45,7 @@
     "naam": "Proces- en Data-modelleren",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 7,
@@ -65,9 +53,7 @@
     "naam": "Project Business DataManagement 3",
     "ec": 6,
     "jaar_id": 2,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 8,
@@ -75,9 +61,7 @@
     "naam": "Data-analyse Basis",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 9,
@@ -85,9 +69,7 @@
     "naam": "Project Business DataManagement 4",
     "ec": 6,
     "jaar_id": 2,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 10,
@@ -95,9 +77,7 @@
     "naam": "Datamanagement",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 11,
@@ -105,9 +85,7 @@
     "naam": "Project Business DataManagement 5",
     "ec": 6,
     "jaar_id": 2,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 12,
@@ -115,9 +93,7 @@
     "naam": "Business Intelligence & Data Warehousing",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 13,
@@ -125,9 +101,7 @@
     "naam": "Hoofdfaseproject Business DataManagement",
     "ec": 9,
     "jaar_id": 3,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 14,
@@ -135,9 +109,7 @@
     "naam": "Data Realisatie",
     "ec": 3,
     "jaar_id": 3,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 15,
@@ -145,9 +117,7 @@
     "naam": "Data-analyse 2",
     "ec": 3,
     "jaar_id": 3,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 16,
@@ -155,9 +125,7 @@
     "naam": "Data Architectuur",
     "ec": 3,
     "jaar_id": 3,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 17,
@@ -165,9 +133,7 @@
     "naam": "Stage",
     "ec": 30,
     "jaar_id": 3,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 18,
@@ -175,9 +141,7 @@
     "naam": "Afstudeerverslag",
     "ec": 30,
     "jaar_id": 3,
-    "specialisatie_id": 2,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 2
   },
   {
     "id": 19,
@@ -185,9 +149,7 @@
     "naam": "Project Mediatechnologie 2",
     "ec": 6,
     "jaar_id": 2,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 20,
@@ -195,9 +157,7 @@
     "naam": "Mediatechnlogisch Design 1\u00a0",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 21,
@@ -205,9 +165,7 @@
     "naam": "Project Mediatechnologie 3",
     "ec": 6,
     "jaar_id": 2,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 22,
@@ -215,9 +173,7 @@
     "naam": "Mediatechnologie Usability Engineering",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 23,
@@ -225,9 +181,7 @@
     "naam": "Project Mediatechnologie 5",
     "ec": 6,
     "jaar_id": 2,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 24,
@@ -235,9 +189,7 @@
     "naam": "Mediatechnologie Creative marketing",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 25,
@@ -245,9 +197,7 @@
     "naam": "Project Mediatechnologie 4",
     "ec": 6,
     "jaar_id": 2,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 26,
@@ -255,9 +205,7 @@
     "naam": "Mediatechnology Programming for Mobile Devices",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 27,
@@ -265,9 +213,7 @@
     "naam": "Hoofdfaseproject Mediatechnologie",
     "ec": 9,
     "jaar_id": 3,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 28,
@@ -275,9 +221,7 @@
     "naam": "Mediatechnologie User Experience",
     "ec": 3,
     "jaar_id": 3,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 29,
@@ -285,9 +229,7 @@
     "naam": "Mediatechnologie Hardware Engineering",
     "ec": 3,
     "jaar_id": 3,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 30,
@@ -295,9 +237,7 @@
     "naam": "Human-Machine-interaction",
     "ec": 3,
     "jaar_id": 3,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 31,
@@ -305,9 +245,7 @@
     "naam": "Stage",
     "ec": 30,
     "jaar_id": 3,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 32,
@@ -315,9 +253,7 @@
     "naam": "Afstudeerverslag",
     "ec": 30,
     "jaar_id": 3,
-    "specialisatie_id": 1,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 1
   },
   {
     "id": 33,
@@ -325,9 +261,7 @@
     "naam": "Project Software Engineering 2",
     "ec": 6,
     "jaar_id": 2,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 34,
@@ -335,9 +269,7 @@
     "naam": "Relationele Databases Modelleren",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 35,
@@ -345,9 +277,7 @@
     "naam": "Project Software Engineering 3",
     "ec": 6,
     "jaar_id": 2,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 36,
@@ -355,9 +285,7 @@
     "naam": "Programmeren in een webcontext",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 37,
@@ -365,9 +293,7 @@
     "naam": "Project Software Engineering 4",
     "ec": 6,
     "jaar_id": 2,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 38,
@@ -375,9 +301,7 @@
     "naam": "Logica",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 39,
@@ -385,9 +309,7 @@
     "naam": "Project Software Engineering 5",
     "ec": 6,
     "jaar_id": 2,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 40,
@@ -395,9 +317,7 @@
     "naam": "Inleiding Algoritmen en Datastructuren",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 41,
@@ -405,9 +325,7 @@
     "naam": "Hoofdfaseproject Software Engineering",
     "ec": 9,
     "jaar_id": 3,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 42,
@@ -415,9 +333,7 @@
     "naam": "Algoritmen en Datastructuren 1",
     "ec": 3,
     "jaar_id": 3,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 43,
@@ -425,9 +341,7 @@
     "naam": "Concepten in Programmeertalen",
     "ec": 3,
     "jaar_id": 3,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 44,
@@ -435,9 +349,7 @@
     "naam": "Testen van software",
     "ec": 3,
     "jaar_id": 3,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 45,
@@ -445,9 +357,7 @@
     "naam": "Stage",
     "ec": 30,
     "jaar_id": 3,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 46,
@@ -455,9 +365,7 @@
     "naam": "Afstudeerverslag",
     "ec": 30,
     "jaar_id": 3,
-    "specialisatie_id": 4,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 4
   },
   {
     "id": 47,
@@ -465,9 +373,7 @@
     "naam": "Juridisch Forenscisch Project",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   },
   {
     "id": 48,
@@ -475,9 +381,7 @@
     "naam": "Recht voor forensisch Iters",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   },
   {
     "id": 49,
@@ -485,9 +389,7 @@
     "naam": "Project Netwerkonderzoek",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   },
   {
     "id": 50,
@@ -495,9 +397,7 @@
     "naam": "Netwerkonderzoek",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   },
   {
     "id": 51,
@@ -505,9 +405,7 @@
     "naam": "Project Forensisch ICT 5",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   },
   {
     "id": 52,
@@ -515,9 +413,7 @@
     "naam": "Malware analyse in systemen",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   },
   {
     "id": 53,
@@ -525,9 +421,7 @@
     "naam": "Project Forensisch ICT 4",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   },
   {
     "id": 54,
@@ -535,9 +429,7 @@
     "naam": "Technisch Onderzoek",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   },
   {
     "id": 55,
@@ -545,9 +437,7 @@
     "naam": "Project Forensisch ICT 6",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   },
   {
     "id": 56,
@@ -555,9 +445,7 @@
     "naam": "Internetonderzoek",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   },
   {
     "id": 57,
@@ -565,9 +453,7 @@
     "naam": "Project Forensisch ICT 7",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   },
   {
     "id": 58,
@@ -575,9 +461,7 @@
     "naam": "E-Discovery",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   },
   {
     "id": 59,
@@ -585,9 +469,7 @@
     "naam": "Stage",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   },
   {
     "id": 60,
@@ -595,8 +477,6 @@
     "naam": "Afstudeerverslag",
     "ec": 3,
     "jaar_id": 2,
-    "specialisatie_id": 3,
-    "created_at": null,
-    "updated_at": null
+    "specialisatie_id": 3
   }
 ]
