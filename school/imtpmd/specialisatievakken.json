@@ -467,7 +467,7 @@
     "id": 59,
     "code": "IWLS",
     "naam": "Stage",
-    "ec": 3,
+    "ec": 30,
     "jaar_id": 3,
     "specialisatie_id": 3
   },
@@ -475,7 +475,7 @@
     "id": 60,
     "code": "IWLA",
     "naam": "Afstudeerverslag",
-    "ec": 3,
+    "ec": 30,
     "jaar_id": 3,
     "specialisatie_id": 3
   }
