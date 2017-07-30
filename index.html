@@ -26,7 +26,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
 	<!-- Theme CSS -->
-	<link href="css/agency.min.css" rel="stylesheet">
+	<!--<link href="css/agency.min.css" rel="stylesheet">-->
+	<link href="css/style.css" rel="stylesheet">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,43 +41,8 @@
 	<![endif]-->
 
 	<style>
-		.competenties-circle {
-			background-color: #fed136;
-			-webkit-border-radius: 100%;
-			-moz-border-radius: 100%;
-			border-radius: 100%;
-			width: 2em;
-			height: 2em;
-			display: inline-block;
-			font-size: 4em;
-
-		}
-
-		.top-buffer {
-			margin-top: 50px;
-		}
-
-		footer {
-			background-color: #333;
-		}
-
 		.copyright {
 			color: #FFFFFF;
-		}
-
-		.video-wrapper {
-			position: relative;
-			padding-bottom: 56.25%; /* 16:9 */
-			padding-top: 25px;
-			height: 0;
-		}
-
-		.video-wrapper iframe {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
 		}
 	</style>
 
@@ -119,7 +85,7 @@
 </nav>
 
 <!-- Header -->
-<header>
+<header style="background-image: url('img/header-bg.jpg');">
 	<div class="container">
 		<div class="intro-text">
 			<div class="intro-lead-in">Welcome!</div>
@@ -178,6 +144,22 @@
 				<h4 class="service-heading">HTML</h4>
 				<p class="text-muted">Ook heb ik ervaring met basis HTML en HTML5.</p>
 			</div>
+			<div class="col-md-4">
+                    <span class="competenties-circle">
+                       <img src="img/competenties/react.png" alt="react">
+                    </span>
+				<h4 class="service-heading">React</h4>
+				<p class="text-muted">In een dynamische wereld zijn javascript frameworks een must.</p>
+			</div>
+		</div>
+		<div class="row text-center top-buffer">
+			<div class="col-md-4">
+				<span class="competenties-circle">
+					<img src="img/competenties/angular.png" alt="angular">
+				</span>
+				<h4 class="service-heading">Angular</h4>
+				<p class="text-muted">Een fantastisch framwork gemaakt door Google.</p>
+			</div>
 		</div>
 	</div>
 </section>
@@ -234,6 +216,8 @@
 					<p class="text-muted">Ervaar het echte werk</p>
 				</div>
 			</div>
+		</div>
+		<div class="row">
 			<div class="col-md-4 col-sm-6 portfolio-item">
 				<a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
 					<div class="portfolio-hover">
@@ -246,6 +230,34 @@
 				<div class="portfolio-caption">
 					<h4>IoT selution in de retail</h4>
 					<p class="text-muted">Een slimme kledinghanger</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 portfolio-item">
+				<a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+					<div class="portfolio-hover">
+						<div class="portfolio-hover-content">
+							<i class="fa fa-plus fa-3x"></i>
+						</div>
+					</div>
+					<img src="img/portfolio/mod5_front.PNG" class="img-responsive" alt="">
+				</a>
+				<div class="portfolio-caption">
+					<h4>Baat bij bewind</h4>
+					<p class="text-muted">Persoonlijke website</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 portfolio-item">
+				<a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+					<div class="portfolio-hover">
+						<div class="portfolio-hover-content">
+							<i class="fa fa-plus fa-3x"></i>
+						</div>
+					</div>
+					<img src="img/portfolio/mod6_front.jpg" class="img-responsive" alt="">
+				</a>
+				<div class="portfolio-caption">
+					<h4>Pedicuren</h4>
+					<p class="text-muted">Persoonlijke website</p>
 				</div>
 			</div>
 		</div>
@@ -519,6 +531,69 @@
 		</div>
 	</div>
 </div>
+
+<!-- Portfolio Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<!-- Project Details Go Here -->
+							<h2>Baat bij bewind</h2>
+							<img class="img-responsive img-centered" src="img/portfolio/mod5_1.PNG" alt="Baat bij bewind banner">
+							<h3><a target="_blank" href="https://baatbijbewind.nl">Bekijk de website</a></h3>
+							<p>Deze website heb ik gemaakt voor mijn oom die zzp’er is, en een eigen bedrijf heeft in bewind voering. Het is belangrijk dat zzp’ers zichtbaar zijn op het internet. Dit kan behaald worden door gebruikt te maken van search engine optimization.</p>
+							<p>Een andere handige tip waar ik gebruik van gemaakt heb om deze website zichtbaar te maken op google is door het bedrijf van deze klant toe te voegen aan google maps via google’s local guid programma. Op deze manier wordt het bedrijf direct zichtbaar als de naam ingetypt word op google. Je moet ook leren leten op kleinere details, google geeft bijvoorbeeld voorrang aan websites die alleen bereikbaar zijn met https.</p>
+							<img class="img-responsive img-centered" src="img/portfolio/mod5_2.PNG" alt="Google baat bij bewind">
+							<button type="button" class="btn btn-primary top-buffer" data-dismiss="modal"><i
+									class="fa fa-times"></i> Close Project
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Portfolio Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<!-- Project Details Go Here -->
+							<h2>Pedicuren</h2>
+							<img class="img-responsive img-centered" src="img/portfolio/mod6_1.JPG" alt="Baat bij bewind banner">
+							<h3><a target="_blank" href="https://tenen-voeten.nl">Bekijk de website</a></h3>
+							<p>Deze website heb ik gemaakt voor mijn tante. Mijn tante is pedicuren, voor haar is het belangrijk dat haar website de mogelijkheid bied om informatie te geven over wat ze doet en wat bijvoorbeeld de tarieven van haar praktijk zijn. Ook is het erg belangrijk dat potentiele klanten gemakkelijk contact met haar kunnen leggen. Dit proces kun je  verbeteren door kleine dingetjes iets gebruiksvriendelijker te maken, door bijvoorbeeld het telefoonnummer clickbaar te maken, zodat en klant direct op het nummer kan klikken als deze op zijn of haar mobiel de website bezoekt.</p>
+							<button type="button" class="btn btn-primary top-buffer" data-dismiss="modal"><i
+									class="fa fa-times"></i> Close Project
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 
 <!-- jQuery -->
 <script src="vendor/jquery/jquery.min.js"></script>
