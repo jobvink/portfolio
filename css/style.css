@@ -28,6 +28,15 @@
 footer {
   background-color: #333; }
 
+#spotlight {
+  background-color: #FED136;
+  padding: 50px 0;
+  color: white; }
+  #spotlight h1 {
+    padding-bottom: 3rem; }
+  #spotlight img {
+    margin-bottom: 50px; }
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; }
