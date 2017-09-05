@@ -664,7 +664,7 @@
         var pos = img.getBoundingClientRect(),
             src = img.getAttribute('data-src');
         window.addEventListener('scroll', function loadImageWhenVisible() {
-            return window.scrollY >= (pos.top - window.innerHeight) ? (
+            return window.scrollY >= (pos.top - window.outerHeight) ? (
                 img.src = src,
                     window.removeEventListener('scroll', loadImageWhenVisible)
             ) : false;
